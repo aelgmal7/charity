@@ -1,4 +1,4 @@
-package com.example.charity.controllers;
+package com.example.charity.model;
 
 import lombok.*;
 

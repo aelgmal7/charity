@@ -1,5 +1,6 @@
-package com.example.charity.model;
+package com.example.charity.repos;
 
+import com.example.charity.model.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

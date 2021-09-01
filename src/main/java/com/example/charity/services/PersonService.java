@@ -1,9 +1,9 @@
 package com.example.charity.services;
 
-import com.example.charity.controllers.PersonPass;
-import com.example.charity.model.CategoryRepo;
+import com.example.charity.model.PersonPass;
+import com.example.charity.repos.CategoryRepo;
 import com.example.charity.model.Person;
-import com.example.charity.model.PersonRepo;
+import com.example.charity.repos.PersonRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

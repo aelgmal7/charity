@@ -1,8 +1,7 @@
 package com.example.charity.services;
 
-import com.example.charity.controllers.CategoryPass;
 import com.example.charity.model.Category;
-import com.example.charity.model.CategoryRepo;
+import com.example.charity.repos.CategoryRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

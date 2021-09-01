@@ -1,17 +1,16 @@
 package com.example.charity.controllers;
 
 import com.example.charity.model.Category;
-import com.example.charity.model.CategoryRepo;
+import com.example.charity.model.PersonPass;
+import com.example.charity.repos.CategoryRepo;
 import com.example.charity.model.Person;
-import com.example.charity.model.PersonRepo;
+import com.example.charity.repos.PersonRepo;
 import com.example.charity.services.PersonService;
 import lombok.*;
-import org.apache.tomcat.jni.Local;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @RestController
